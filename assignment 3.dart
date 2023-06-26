@@ -72,7 +72,24 @@
 // }
 
 
+// question 8
+
+// void main() {
+//   List<Map<String, dynamic>> usersEligibility = [
+//     {'name': 'John', 'eligible': true},
+//     {'name': 'Alice', 'eligible': false},
+//     {'name': 'Mike', 'eligible': true},
+//     {'name': 'Sarah', 'eligible': true},
+//     {'name': 'Tom', 'eligible': false},
+//   ];
+
+//   usersEligibility.removeWhere((user) => user['eligible'] == false);
+
+//   print(usersEligibility);
+// }
+
 // question 10
+
 // void main() {
 // List stuname =["arbaz","owais","khalid","huzaifa","anas","bilal","taber"]; 
 //  List newstunamelist =stuname.toSet().toList(); 
@@ -174,5 +191,38 @@
 //   }
 // }
 
+// question 21
+
+// void main() {
+//   Map<String, dynamic> user = {
+//     'name': 'John',
+//     'isAdmin': true,
+//     'isActive': true,
+//   };
+
+//   bool isActiveAdmin = user['isAdmin'] == true && user['isActive'] == true;
+
+//   if (isActiveAdmin) {
+//     print("Active admin");
+//   } else {
+//     print("Not an active admin");
+//   }
+// }
 
 
+// question 22
+
+// void main() {
+//   Map<String, int> cart = {
+//     "Apple": 3,
+//     "Banana": 2,
+//     "Orange": 1,
+//     "Grapes": 4,
+//   };
+
+//   if (cart.containsKey("Apple")) {
+//     print("Product found");
+//   } else {
+//     print("Product not found");
+//   }
+// }
